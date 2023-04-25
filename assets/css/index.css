@@ -1,8 +1,8 @@
 @import url(global.css);
 
 main {
-    height: 50.0rem;
-    width: 38rem;
+    height: 60%;
+    width: 90%;
     background-color: var(--White);
     padding: 3.6rem;
     border-radius: 2.8rem 2.8rem 10rem 2.8rem;
@@ -104,7 +104,7 @@ img {
     color: var(--Purple);
 }
 
-@media screen and (min-width: 590px) {
+@media screen and (min-width: 720px) {
     main {
         height: max-content;
         width: 50%;
