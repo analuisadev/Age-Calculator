@@ -104,10 +104,10 @@ img {
     color: var(--Purple);
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 768px) {
     main {
         height: max-content;
-        width: 50%;
+        width: 70%;
         border-radius: 2rem 2rem 14rem 2rem;
     }
 
@@ -138,5 +138,11 @@ img {
 
     .age-information {
         font-size: 6.6rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    main {
+        width: 50%;
     }
 }
